@@ -7,7 +7,7 @@ from jinja2 import Template
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from dotenv import load_dotenv
-from extractors import get_extractor
+from .extractors import get_extractor
 from utilities.database import MongoDB
 from utilities.drm_utils import apply_drm
 from utilities.file_utils import process_text_file, clean_temp_files, download_file
